@@ -95,6 +95,9 @@ The path to a directory where built msi's and the installer executable should be
 The name of a build step after which the script should terminate.
 For example: -BuildTo ToolsSupportCore
 
+.PARAMETER Summary
+Display timing data at the end of the build.
+
 .PARAMETER ToBatch
 When set, runs the script in a special mode which outputs a listing of command invocations
 in batch file format instead of executing them.
